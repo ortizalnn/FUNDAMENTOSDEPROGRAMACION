@@ -1,4 +1,4 @@
-'''
+"""
 calcular la media de tres numeros 
 pedidos por teclado
 entadas;

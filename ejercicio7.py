@@ -9,6 +9,6 @@ hora:
 '''
 m = input("ingrese la cantidad de minutos: ")
 m = int(m)
-h = int(m)
-h = ( m / 60 )
-print("la hora es: ",h)
+h = m // 60
+mi = ( m % 60 )
+print("la hora es: ",h, mi)

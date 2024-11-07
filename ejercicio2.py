@@ -11,14 +11,14 @@ Analisis:
 Se requiere calcular con las formulas para 
 area y perimetro
 '''
-#input siempre regresa un string
+# input siempre regresa un string
 # para tratarlo como otro dato se debe convertir
 base = input("Escribe la base del rectangulo: ")
 base = int (base)
-altura = imput("Escribe la altura del rectangulo")
+altura = input("Escribe la altura del rectangulo")
 altura = int(altura)
 area = base * altura
 primetro = base + base + altura + altura
-primetro = (base + altura) + 2
+primetro = (base + altura) * 2
 print(area)
 print(perimetro)

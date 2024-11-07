@@ -20,8 +20,7 @@ v2 = input("escribe el valor 2: ")
 v2 = int(v2)
 v3 = input("escribe el valor 3: ")
 v3 = int(v3)
-tc = input("escribe el total de comiciones: ")
-tc = int(tc)
-ct = ( sb + v1 + v2 + v3 ) * 10
+
+ct = ( v1 + v2 + v3 ) * .10
 st = ( sb + ct )
 print("el sueldo total es: ", st)
